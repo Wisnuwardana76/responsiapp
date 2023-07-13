@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cvDaftar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvnama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nama"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tvnamatim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nama tim"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20dp"
+            android:layout_marginTop="90dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvnamaaplikasi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nama aplikasi"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20dp"
+            android:layout_marginTop="150dp"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
